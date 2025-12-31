@@ -242,7 +242,7 @@ The REST API includes:
 
  - Access to a datastore suitable for timeseries/timeperiod-data organized in "buckets" (containers grouping related activity data by metadata like client type or hostname)
  - **Buckets API:** Create, retrieve, and delete data buckets
- - **Events API:** Read and write timestamped events within buckets
+ - **Events API:** Read and write timestamped events within buckets.
  - **Heartbeat API:** Watchers use heartbeat signals to update the current state of activity (e.g., active application, AFK status)
  - **Query API:** simple query scripting language for filtering, merging, grouping, and transforming events
  - **Client libraries:** Language-specific libraries like `aw-client` (Python), `aw-client-js`, and `aw-client-rust` that wrap REST endpoints for programmatic access
