@@ -250,7 +250,7 @@
           };
         };
 
-      flake.overlays.default = final: prev: {
+      flake.overlays.default = final: _prev: {
         activitywatch = final.symlinkJoin {
           name = "activitywatch-${final.lib.substring 0 7 (self.rev or self.dirtyRev or "dev")}";
           paths = [
